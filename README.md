@@ -1,6 +1,6 @@
 # Dropbox Business API Demo (Spring Boot)
 
-This project demonstrates how to integrate Dropbox Business APIs using Spring Boot, focusing on retrieving team members data through the `/team/members/list` endpoint.
+This project demonstrates how to integrate Dropbox Business APIs using Spring Boot, focusing on retrieving team members data through the `/team/members/list_v2` endpoint.
 
 ---
 
@@ -48,8 +48,8 @@ This project demonstrates how to integrate Dropbox Business APIs using Spring Bo
 
 ### 4. Test the Api's
 
-1.Call '/oauth/login' api's which will redirect to dropbox login page.
-2.Sign in into dropbox account.
-3.Upon successful sign-in you will be redirected to '/oauth/callback' with a token provided in response.
-4.Call '/dropbox/team-members' api to fetch the team members.
+1. Call '/oauth/login' api's which will redirect to dropbox login page.
+2. Sign in into dropbox account.
+3. Upon successful sign-in you will be redirected to '/oauth/callback' with a token provided in response.
+4. Call '/dropbox/team-members' api to fetch the team members.
 
